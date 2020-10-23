@@ -7,16 +7,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ASP.NetCoreCRUD.Models;
 using ASP.NetCoreCRUD.Models.Context;
+using ASP.NetCoreCRUD.BackEnd.Model;
 
 namespace ASP.NetCoreCRUD.Controllers
 {
     public class HomeController : Controller
     {
-        private CollegeContext context; 
+        //private CollegeContext context; 
 
         public HomeController(CollegeContext _context)
         {
-            this.context = _context;
+           
         }
 
         /*

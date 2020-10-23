@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ASP.NetCoreCRUD.Models.DataModel.Student>
+@{
+    ViewData["Title"] = "List";
+}
+
+<a asp-action="Create">Create new Student</a>
+<table class="table">
+    <tr>
+        <td>FirstName</td>
+        <td>MiddleName</td>
+        <td>LastName</td>
+    </tr>
+    @foreach(var student in Model)
+    {
+        <tr>
+            <td>@student.FirstName</td>
+            <td>@student.MiddleName</td>
+            <td>@student.LastName</td>
+        </tr>
+    }
+
+</table>
