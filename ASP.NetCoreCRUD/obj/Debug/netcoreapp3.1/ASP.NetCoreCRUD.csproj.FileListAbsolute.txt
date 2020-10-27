@@ -2,7 +2,6 @@ C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\bin\Debug\netcoreapp
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\bin\Debug\netcoreapp3.1\ASP.NetCoreCRUD.exe
-C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.csprojAssemblyReference.cache
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.RazorAssemblyInfo.cache
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.RazorAssemblyInfo.cs
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.AssemblyInfoInputs.cache
@@ -148,3 +147,6 @@ C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\Razor\Views\Student\Create.cshtml.g.cs
 C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\Razor\Views\Student\List.cshtml.g.cs
+C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\Razor\Views\Student\Delete.cshtml.g.cs
+C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\Razor\Views\Student\Edit.cshtml.g.cs
+C:\Users\vlad_\source\repos\ASP.NetCoreCRUD\ASP.NetCoreCRUD\obj\Debug\netcoreapp3.1\ASP.NetCoreCRUD.csprojAssemblyReference.cache

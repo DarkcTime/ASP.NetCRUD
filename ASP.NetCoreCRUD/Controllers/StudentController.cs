@@ -11,19 +11,37 @@ namespace ASP.NetCoreCRUD.Controllers
 {
     public class StudentController : Controller
     {
-        private CollegeContext context; 
-
+        StudentRepository studentRepository; 
+        
         public StudentController(CollegeContext context)
         {
-            this.context = context; 
+            studentRepository = new StudentRepository(context); 
         }
         
 
         public IActionResult List()
         {
-            return View(context.Students.ToList());
+            return View(studentRepository.GetStudents());
         }
 
+        public IActionResult Edit(int? id)
+        {
+            return View(studentRepository.GetStudent(id)); 
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Student student)
+        {
+            studentRepository.UpdateStudent(student); 
+            return RedirectToAction("List"); 
+        }
+
+        public IActionResult Delete()
+        {
+            return View(); 
+        }
+
+        
         public IActionResult Create()
         {
             return View(); 
@@ -32,10 +50,10 @@ namespace ASP.NetCoreCRUD.Controllers
         [HttpPost]
         public IActionResult Create(Student student)
         {
-            context.Add(student);
-            context.SaveChanges();
+            studentRepository.AddStudent(student);
             return RedirectToAction("List"); 
         }
+        
 
     }
 }

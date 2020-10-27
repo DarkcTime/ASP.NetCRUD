@@ -13,12 +13,6 @@ namespace ASP.NetCoreCRUD.Controllers
 {
     public class HomeController : Controller
     {
-        //private CollegeContext context; 
-
-        public HomeController(CollegeContext _context)
-        {
-           
-        }
 
         /*
         private readonly ILogger<HomeController> _logger;
@@ -29,10 +23,20 @@ namespace ASP.NetCoreCRUD.Controllers
         }
         */
 
+        private CollegeContext context; 
+
+        public HomeController(CollegeContext collegeContext)
+        {
+            this.context = collegeContext; 
+             
+        }
+
+
         public IActionResult Index()
         {
-            return View();
-        }
+            ContextModel.Context = this.context; 
+            return View(); 
+        }    
 
         public IActionResult Privacy()
         {

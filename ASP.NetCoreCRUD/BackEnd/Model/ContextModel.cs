@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCoreCRUD.BackEnd.Model
 {
-    public class Context
+    public class ContextModel
     {
-        
+        public static CollegeContext Context { get; set; }
 
     }
 }

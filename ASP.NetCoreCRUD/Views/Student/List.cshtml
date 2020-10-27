@@ -12,10 +12,17 @@
     </tr>
     @foreach(var student in Model)
     {
-        <tr>
+        <tr>    
             <td>@student.FirstName</td>
             <td>@student.MiddleName</td>
             <td>@student.LastName</td>
+            <td>
+                <a asp-controller="Student" asp-action="Edit" asp-route-id="@student.IdStudent">Edit</a>
+                
+            </td>
+            <td>
+                <a asp-controller="Student" asp-action="Delete" asp-route-id="@student.IdStudent">Delete</a>
+            </td>
         </tr>
     }
 
